@@ -1,4 +1,19 @@
 
-h1 {
-  color: Green
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 1%;
+}
+
+.banner {
+  background-color: red;
+  margin-top: 2%;
+  padding: 1% 0;
+  text-align: center;
 }
