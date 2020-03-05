@@ -23,18 +23,21 @@
 }
 
 .menus {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*   width: 100%; */
 
 }
 
-/* .food {
-  display: inline-block;
-  width: 40%;
-  float: left;
+/* .menus div {
+  display: inline-inline-block;
+} */
+
+.food {
+  padding-right: 15%;
 }
 
 .pest {
-  display: inline-block;
-  width: 40%;
-  float: right;
-} */
+  padding-left: 15%
+}
