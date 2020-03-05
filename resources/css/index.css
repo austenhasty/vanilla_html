@@ -11,9 +11,30 @@
   padding: 1%;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .banner {
   background-color: red;
   margin-top: 2%;
   padding: 1% 0;
   text-align: center;
 }
+
+.menus {
+  display: inline-block;
+
+}
+
+/* .food {
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+.pest {
+  display: inline-block;
+  width: 40%;
+  float: right;
+} */
